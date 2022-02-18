@@ -11,4 +11,4 @@
   <li>Keila Ramos</li>
 </ul>
 
-<img src="Imagens/icone.png">
+<img style="width: 30px; "src="Imagens/icone.png">
