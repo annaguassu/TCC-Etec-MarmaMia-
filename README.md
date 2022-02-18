@@ -10,3 +10,5 @@
   <li>Gabriel Oliveira</li>
   <li>Keila Ramos</li>
 </ul>
+
+<img src="Imagens/icone.png">
