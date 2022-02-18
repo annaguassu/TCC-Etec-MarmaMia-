@@ -1,0 +1,140 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+    background-color:  #D3D3D3;
+    color: white;
+}
+
+#areaprivada
+{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#areaprivada header
+{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#areaprivada header a 
+{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#areaprivada header a span
+{
+    margin-right: 16px;
+    background-image: url('../Imagens/arrow-left.svg');
+    display: flex;
+
+    width: 20px;
+    height: 24px;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    padding: 40px 60px 30px 60px;
+}
+
+#usuario h5
+{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.items-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.items-grid li
+{
+    background-color: white;
+    list-style: none;
+
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 300px;
+
+    padding: 24px 16px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.items-grid span
+{
+    margin-top: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.items-grid li img,
+.items-grid li span
+{
+    pointer-events: none;
+}
+
+.items-grid li a
+{   
+    text-decoration: none;
+    color: black;
+}
+
+.items-grid li a:hover
+{
+    color: blue;
+}
+
+#foot
+{
+    display: block;
+    text-align: center;
+}
+
+#configuracao
+{
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#configuracao a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#configuracao a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+#sair
+{
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-left: 10px;
+}

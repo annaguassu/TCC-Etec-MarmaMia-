@@ -1,0 +1,169 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+    background-color: #D3D3D3;
+    color: black;
+}
+
+#form-fornecedor-cliente
+{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#form-fornecedor-cliente header
+{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-fornecedor-cliente header a 
+{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#form-fornecedor-cliente header a span
+{
+    margin-right: 16px;
+    background-image: url('../Imagens/arrow-left.svg');
+    display: flex;
+
+    width: 20px;
+    height: 24px;
+}
+
+#form
+{
+    background-color: #FF5050;
+    margin: 80px auto;
+    padding: 64px;
+    border-radius: 8px;
+    max-width: 730px;
+    color: white;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+form fieldset
+{
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend
+{
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+form .field
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+form .field-group
+{
+    display: flex;
+}
+
+form input,
+form select
+{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+}
+
+form select
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background: #E9E9E9 url("../Imagens/ico-seta-appearance.gif") 95.5% 50% no-repeat;
+    width: 290px;
+}
+
+form label
+{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field
+{
+    margin-left: 24px;
+}
+
+#botoes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes2
+{
+    text-align: center;
+}
+
+a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: yellow;
+}
+
+div#msg_sucesso{
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50 0.3);
+    border: 1px solid	rgb(34, 139, 34);
+    text-align: center;
+}
+
+div.msg_erro{
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250, 128, 114, 0.3);
+    border: 1px solid	rgb(165, 42, 42);
+    text-align: center;
+}
+
+form#status
+{
+    text-align: center;
+    
+}

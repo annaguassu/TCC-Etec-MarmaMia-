@@ -1,0 +1,92 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+    background-color:  #D3D3D3;
+}
+
+#carrinho
+{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#carrinho header
+{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrinho header a 
+{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#carrinho header a span
+{
+    margin-right: 16px;
+    background-image: url('../Imagens/arrow-left.svg');
+    display: flex;
+
+    width: 20px;
+    height: 24px;
+}
+
+h1
+{
+    color: white;
+}
+
+#titulo
+{
+    text-align: center;
+    color: black;
+    padding: 60px 60px 60px 60px;
+}
+
+#titulo a
+{
+    color: blue;
+}
+
+table
+{
+    text-align: center;
+}
+
+#botoes
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input
+{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 10px 5px;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+
+form
+{
+    padding-bottom: 60px;
+}
+
+a
+{
+    color: blue;
+}
